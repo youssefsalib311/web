@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible " contact="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>IFBB</title>
+
+    <style>
+      body {
+        transition: background-color 0.5s ease;
+      }
+
+      .dark-mode {
+        background-color: #000000;
+        color: #ffffff;
+      } 
+    </style>
+
+    <script>
+      function DarkMode() {
+        var body = document.body;
+        body.classList.toggle("dark-mode");
+      }
+    </script>
+  </head>
+
+  <body lang="en">
+    <header>
+      <a href="main.html" class="Logo"> IFBB </a>
+      <nav class="nevigation">
+        <a href="News.html">News</a>
+        <a href="Stars.html">Stars</a>
+        <a href="About.html">About</a>
+        <a href="Login.html">Login</a>
+        <a href="#" onclick="DarkMode();">Dark Mode</a>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="content-container">
+        <h2>Welcome to IFBB</h2>
+        <h3>we need bonus to success please</h3>
+      </div>
+      <div class="image-container">
+        <img src="./image/POSTER-LOGO-ELITE-PRO.jpg" alt="Header Image" class="header-image">
+      </div>
+      
+    </section>
+  </body>
+</html>

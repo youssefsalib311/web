@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>IFBB</title>
+    <style>
+      .about-video {
+          display: flex;
+          justify-content: center;
+          margin-top: 3rem;
+          background-color: black;
+          padding: 5rem;
+      }
+
+      .about-video video {
+          width: 100%;
+          max-width: 800px; /* Adjust the maximum width as needed */
+      }
+  </style>
+</head>
+
+<body lang="en">
+    <header>
+        <a href="main.html" class="Logo"> IFBB </a>
+        <nav class="nevigation">
+          <a href="News.html">News</a>
+          <a href="Stars.html">Stars</a>
+          <a href="About.html">About</a>
+          <a href="Login.html">Login</a>
+          <a href="#" onclick="DarkMode();">Dark Mode</a>
+        </nav>
+      </header>
+    <section class="main">
+        <section class="about us" style="display: flex; gap: 40px; margin: 70px">
+            <section class="part1" style="flex: 1 1 50%">
+              <h2 style="display: flex; justify-content: center">
+                Ben Weider, OC, CStJ, CQ, PhD
+              </h2>
+              <h4 style="display: flex; justify-content: center">
+                IFBB Founder Honorary Life President
+              </h4>
+              <div style="display: flex; justify-content: center">
+                <img src="./image/ben-wider-ifbb.jpg" alt="ben-wider-ifbb.jpg" />
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <p>
+                  My brother Joe and I formed the International Federation of BodyBuilders
+                  in 1946.
+                </p>
+                <p>
+                  Next year, in 2006, the IFBB will celebrate its 60th anniversary, having
+                  grown from two countries (Canada and the USA) to 174 National
+                  Federations worldwide.
+                </p>
+                <p>
+                  The IFBB is not what it is today solely as a result of the efforts of
+                  Joe and I. Throughout its history, the IFBB has been truly blessed with
+                  the good fortune of having the right people come along at the right
+                  time.
+                </p>
+                <p>
+                  The physique stars of today owe a tremendous debt of gratitude to those
+                  of yesterday. And I speak of the competitive spirit so alive, not only
+                  in the best of us, but also, in all of us. Not just in outstanding
+                  competitors, amateur and professional alike, but also, in highly
+                  dedicated and motivated officials, administrators, and supporters the
+                  world over.
+                </p>
+                <p>
+                  The IFBB Hall of Fame honors these pioneers of our sport by recognizing
+                  their outstanding and enduring achievements and thus, their lasting
+                  contributions to what truly makes the IFBB what it is today one of the
+                  greatest international sport federations in the world.
+                </p>
+                <p>
+                  On behalf of the entire IFBB family, I wish to take this opportunity to
+                  welcome you to the IFBB Hall of Fame website.
+                </p>
+              </div>
+            </section>
+          
+            <section class="part2" style="flex: 1 1 50%">
+              <h2 style="display: flex; justify-content: center">chris bubsted</h2>
+              <h4 style="display: flex; justify-content: center">
+                Trainer of Champions since 1936
+              </h4>
+              <div style="display: flex; justify-content: center">
+                <img src="./image/Exclusive-Interview-with-Chris-Bumstead.jpg" alt="joe-weider-ifbb.jpg" />
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <p>
+                  My brother Joe and I formed the International Federation of BodyBuilders
+                  in 1946.
+                </p>
+                <p>
+                  Next year, in 2006, the IFBB will celebrate its 60th anniversary, having
+                  grown from two countries (Canada and the USA) to 174 National
+                  Federations worldwide.
+                </p>
+                <p>
+                  The IFBB is not what it is today solely as a result of the efforts of
+                  Joe and I. Throughout its history, the IFBB has been truly blessed with
+                  the good fortune of having the right people come along at the right
+                  time.
+                </p>
+                <p>
+                  The physique stars of today owe a tremendous debt of gratitude to those
+                  of yesterday. And I speak of the competitive spirit so alive, not only
+                  in the best of us, but also, in all of us. Not just in outstanding
+                  competitors, amateur and professional alike, but also, in highly
+                  dedicated and motivated officials, administrators, and supporters the
+                  world over.
+                </p>
+                <p>
+                  The IFBB Hall of Fame honors these pioneers of our sport by recognizing
+                  their outstanding and enduring achievements and thus, their lasting
+                  contributions to what truly makes the IFBB what it is today one of the
+                  greatest international sport federations in the world.
+                </p>
+                <p>
+                  On behalf of the entire IFBB family, I wish to take this opportunity to
+                  welcome you to the IFBB Hall of Fame website.
+                </p>
+              </div>
+            </section>
+          </section>
+          
+    </section>
+    <section class="about-video">
+      <video onclick="handleVideoClick()" id="aboutVideo" src="./image/048_dark_panther_logo.mp4" loop autoplay></video>
+  </section>
+</section>
+
+<script>
+  let aboutVideo = document.getElementById('aboutVideo');
+
+  function handleVideoClick() {
+      if (aboutVideo.muted == false) {
+          aboutVideo.muted = true;
+      } else {
+          aboutVideo.muted = false;
+      }
+  }
+</script>
+
+</body>
+
+</html>

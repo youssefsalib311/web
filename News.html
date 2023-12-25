@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>IFBB</title>
+
+    <style>
+        /* Add your styles here */
+    </style>
+</head>
+
+<body lang="en">
+    <header>
+        <a href="main.html" class="Logo"> IFBB </a>
+        <nav class="nevigation">
+            <a href="News.html">News</a>
+            <a href="Stars.html">Stars</a>
+            <a href="About.html">About</a>
+            <a href="Login.html">Login</a>
+            <a href="#" onclick="toggleImage();">plus</a>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="content-container">
+            <h2>This is news page to change banner click:plus in nav</br>
+                         
+        </div>
+        <div class="image-container">
+            <img id="headerImage" src="./image/gym-fitness-social-media-post-template_607893-6.jpg" alt="Header Image" class="header-image">
+        </div>
+    </section>
+
+    <script>
+        function toggleImage() {
+            console.log("Button clicked!"); // Check if the function is called
+
+            var imgElement = document.getElementById("headerImage");
+            if (imgElement.src.includes("gym-fitness-social-media-post-template_607893-6.jpg")) {
+                imgElement.src = "./image/gym-fitness-social-media-post-banner-template_301521-189.jpg";
+            } else {
+                imgElement.src = "./image/gym-fitness-social-media-post-template_607893-6.jpg";
+            }
+        }
+    </script>
+</body>
+
+</html>
