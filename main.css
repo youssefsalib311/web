@@ -54,7 +54,6 @@ section.main {
 .header-image {
   width: 100%;
   height: auto;
-  display: block;
   height: 100vh;
 }
 
